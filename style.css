@@ -1,0 +1,225 @@
+/* GENERAL */
+
+*{
+    padding:0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;    
+    font-size:10px;
+;
+}
+body{
+
+    margin: 0 auto;
+    max-width: 1100px;
+    background-color:#ff2f00;
+    box-sizing: border-box;
+
+
+}
+
+/* BANNIERE */
+
+.header{
+    background-color: rgb(17, 17, 17);
+    color: aliceblue;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.logo img{
+    margin:20px;
+    width: 50vw;
+    min-width: 260px;
+}
+.adresse p{
+    margin: 40px 0;
+    padding:0;
+    color: white;
+    text-align: right;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+/* NAV */
+
+nav ul {
+    display:flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    text-transform: uppercase;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(17, 17, 17);
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 20px 30px;
+    text-decoration: none;
+    transition: all 0.8s;
+}
+
+nav li a:hover {
+    background-color: #fff;
+    color:cornflowerblue;
+}
+
+
+.divider{
+    height:3px;
+    width: 100%;
+    background-color: aliceblue;
+
+}
+/* ACCUEIL */
+.accueil img{
+    max-width: 100%;
+}
+.accueil{
+    background-color: #fff;
+    text-align: center;
+
+}
+.accueil h1{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 2.8rem;
+}
+.accueil p{
+    margin-bottom: 15px;
+    padding: 0 30px 20px;
+    font-size: 1.5rem;
+}
+
+/* PROMO */
+
+.banniere-promo{
+    display: flex;
+    flex-direction: row;
+    margin-top:-14px;
+    padding:30px 0;
+    background-color: #ff2f00;
+    color: #fff;
+
+}
+.banniere-promo h2{
+    font-size: 1.5rem;
+}
+.lignes{
+    margin-top: 5px;
+    width:100%;
+    height: 8px;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+
+/* CARTES */
+.cartes{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ff2f00;
+}
+.carte {
+    display: flex;
+    justify-content:space-around;
+    flex-direction: column;
+    vertical-align: top;
+    text-align: center;
+    width: 250px;
+/*     max-width: 28%;
+ */    height:70vh;
+    background-color: #fff;
+    margin: 0 auto 80px;
+
+}
+
+.carte h3{
+    font-size: 1.2em;
+    padding:5px;
+}
+.carte span{
+    font-size: 3em;
+    font-weight:900;
+    color: rgb(92, 122, 179);
+}
+.carte ul{
+    vertical-align: top;
+}
+.carte li{
+   color:rgb(93, 93, 236);
+   text-align: center;
+   list-style-type: none;
+   font-weight: 600;
+   margin: 5px auto;
+}
+
+.carte a{
+  align-items: flex-end;
+  border-radius: 5px;
+  background-color: #ff2f00;
+  color: #fff;
+  margin:20px 25px;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight:bold;
+}
+
+.carte a:hover{
+  background-color: #fff;
+  color: #ff2f00;
+  border: solid 1px #ff2f00;
+  transition: all 0.6s;
+}
+
+
+
+
+.carte img{
+  position: relative;
+  vertical-align: top;
+  height: 150px;
+  width: 250px;
+  max-width:300px;
+  min-width: 150px;
+  max-height: 200px;
+  min-height: 75px;
+}
+
+.arrow-down {
+    position: absolute;
+
+    width: 0; 
+    height: 0; 
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    
+    border-top: 25px solid #fff;
+    margin-top: 470px;
+    align-self: center;
+  }
+
+/* @media screen and (max-width:600px){
+    .cartes{
+        display: inline-block;
+
+    }
+} */
+
+  /* FOOTER */
+  .footer{
+      display: flex;
+      justify-content: space-between;
+      align-content: center;
+    padding: 15px;
+    font-size: 0.6em;
+    font-weight: 200;
+    background-color: rgb(17, 17, 17);
+    color:#fff;
+}
+.footer img{
+    width:30px;
+}
